@@ -1,0 +1,27 @@
+.query-form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.query-input {
+  width: 700px; /* Increase input box size */
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+  font-size: 1em; /* Adjust font size */
+}
+
+.query-button {
+  background-color: #e3000f; /* State Farm red color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.query-button:hover {
+  background-color: #c3000d; /* Darker State Farm red color */
+}

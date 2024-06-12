@@ -1,0 +1,61 @@
+.app {
+  font-family: "Arial", sans-serif;
+  text-align: center;
+  background-color: #ffffff; /* White background */
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.header-logo {
+  position: absolute;
+  left: 20px;
+}
+
+.header-content {
+  text-align: center;
+}
+
+.header h1 {
+  color: #000000; /* Black color for heading */
+  font-size: 2.5em;
+  font-weight: bold;
+}
+
+.catchy-verb {
+  color: #000000; /* Black color for catchy verb */
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.send-letter-button {
+  background-color: #e3000f; /* State Farm red color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.send-letter-button:hover {
+  background-color: #c3000d; /* Darker State Farm red color */
+}
+
+.pdf-display {
+  margin-top: 20px;
+}
+
+.side-image {
+  max-width: 150px; /* Reduce the size of the image */
+  height: auto;
+  margin: 0 auto 20px auto;
+}
